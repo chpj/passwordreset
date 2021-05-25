@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -13,8 +13,23 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 	<style>
 		body {
-			background-color: #f4f5f5;}
+			background-color: #f4f5f5;
+			margin: 10px;}
+	   .button {
+			width: 130px;
+			height: 130px;
+			background: url("img/sitelogo.svg") no-repeat;
+			display: inline-block;
+		}
+		.button:hover {
+			width: 130px;
+			height: 130px;
+			background: url("img/navigation_circle_back.svg") no-repeat;
+		}
+
 	</style>
+
+
 
   </head>
 
@@ -23,22 +38,26 @@
 
     <div class="navbar-wrapper">
       <div class="container">
-          <h1>Password Reset</h1>
+          <h1>PASSWORD RESET</h1>
           <hr/>
       </div>
     </div>
 
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
     <div class="container">
         
       <div class="row">
-        <div class="col-xs-12 col-sm-6">
-          <h2>Glemt din adgangskode?</h2>
-          <p><a href="https://passwordreset.microsoftonline.com">Klik her for at fortsætte til passwordreset portalen, hvor du kan nulstille din adgangskode</p>
-        </div>
+        <div class="col-xs-6 col-sm-3">
+		<div align="center" nobreak>
+          <a href="https://passwordreset.microsoftonline.com"><div class="button"></div></a><br>
+		  <B>NULSTIL ADGANGSKODE</B><br><br>
+		  <div align="left">
+			Denne side, sender dig videre til nulstilling af din adgangskode for din bruger. Du skal have din mobiltelefon klar for at gennemføre nulstillingen.
+		  </div>
+		</div>
+    </div>
       </div>
     </div>
+	
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
