@@ -1,5 +1,5 @@
 ---
-topic: HTML Hello World
+topic: Password Reset page
 languages:
   - HTML
 products:
@@ -7,9 +7,9 @@ products:
   - Azure Web Apps
 ---
 
-# HTML Hello World
+# Password Reset Page
 
-This sample demonstrates a tiny Hello World HTML app for [App Service](https://docs.microsoft.com/azure/app-service).
+This page is used to create a webapp that is basically a redirector to the Azure Password Reset portal
 
 # Contributing
 
